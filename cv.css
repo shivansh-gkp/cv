@@ -36,16 +36,19 @@ hr{
 .cloud-1{
   position:absolute;
   margin-top: 2%;
-  margin-left: 20%;
+  margin-left: 35%;
   width: 17%;
+  opacity: 0;
 }
 .cloud-2{
   position : absolute;
-  margin-left:-40%;
+  margin-left:-60%;
   margin-top:19%;
   width: 20%;
+  opacity: 0;
 }
 .mountain{
+  opacity: 0;
   margin: auto;
   width: 50%;
   background-image: linear-gradient(image/cl, yellow);

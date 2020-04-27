@@ -25,6 +25,7 @@ hr{
   font-family: 'Pacifico', cursive;
   font-size: 300%;
   color: #77d8d8;
+  z-index: 1;
 }
 .title-2{
   font-family: 'Baloo Tamma 2', cursive;
@@ -39,6 +40,7 @@ hr{
   margin-left: 35%;
   width: 17%;
   opacity: 0;
+  z-index: 1;
 }
 .cloud-2{
   position : absolute;
@@ -46,6 +48,7 @@ hr{
   margin-top:19%;
   width: 20%;
   opacity: 0;
+  z-index: 1;
 }
 .mountain{
   opacity: 0;
@@ -81,6 +84,13 @@ hr{
   width:60%;
   margin:auto;
   text-align: center;
+}
+.ytlink{
+  text-decoration: none;
+  color: black;
+}
+.ytlink:hover{
+  color: #77d8d8;
 }
 .developer{
   width: 15%;
@@ -159,10 +169,18 @@ hr{
   color: #77d8d8;
 }
 .contact{
-  width: auto;
+
+    width: 60%;
+    text-align: center;
+    margin:auto;
 }
 .contact-text{
   font-family: 'Baloo Tamma 2', cursive;
   line-height: 20px;
   margin-top:0;
+}
+@media only screen and (max-width: 500px) {
+
+  .profile-section{width: 90%;}
+  .skills{width: 90%;}
 }

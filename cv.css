@@ -85,11 +85,11 @@ hr{
   margin:auto;
   text-align: center;
 }
-.ytlink{
+.link{
   text-decoration: none;
   color: black;
 }
-.ytlink:hover{
+.link:hover{
   color: #77d8d8;
 }
 .developer{

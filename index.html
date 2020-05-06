@@ -1,5 +1,6 @@
 <!DOCKTYPE html>
   <html>
+
   <head>
     <!-- external-css -->
     <link rel="stylesheet" type="text/css" href="cv.css">
@@ -9,7 +10,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap" rel="stylesheet">
     <!-- jquery cdn link -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- EveryThing that follows is a bootstrap 4 cdn-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   </head>
+
   <body>
     <div class="intro-section">
       <img class="cloud-1" alt="cloud" src="images/cloud.png">
@@ -21,20 +31,22 @@
     <div class="profile-section">
       <img class="profile-picture" alt="profile-picture" src="images/shivansh.jpg">
       <h1 class="title-3">Hello</h1>
-      <p  class="bio">I am an engineer with a BTech-Information technology degree. I am proficient in web development at the same time fulfill my creative desire by making and editing videos.</p>
+      <p class="bio">I am an engineer with a BTech-Information technology degree. I am proficient in web development at the same time fulfill my creative desire by making and editing videos.</p>
     </div>
     <div class="skills">
       <h1 class="title-3">My Skills</h1>
       <img class="developer" alt="developer" src=images/developer.svg>
       <h4 class="sub-headings">Web Development</h4>
-      <p class="bio-1" >
-      I have developed many websites and applications from scratch. I am adept at HTML, CSS, javascript, bootstrap, jquery, nodejs, Expressjs, mongodb, mongoose, git and many other technologies that make web-development easy. I am also proficient in data structure and algorithms. Check out my <a class="link" href="https://www.interviewbit.com/profile/homepandey_b9e647e85103"><strong>InterviewBits</strong></a> Programming profile.</p>
+      <p class="bio-1">
+        I have developed many websites and applications from scratch. I am adept at HTML, CSS, javascript, bootstrap, jquery, nodejs, Expressjs, mongodb, mongoose, git and many other technologies that make web-development easy. I am also proficient
+        in data structure and algorithms. Check out my <a class="link" href="https://www.interviewbit.com/profile/homepandey_b9e647e85103"><strong>InterviewBits</strong></a> Programming profile.</p>
     </div>
     <div class="skills">
       <img class="developer-2" alt="developer" src=images/videography.svg>
       <h4 class="sub-headings">Photography and Videography</h4>
-      <p class="bio-1" >
-      I am a creative person. I like clicking picture and making videos. I use Adobe Photoshop to edit photos and Adobe premiere pro to edit videos. Checkout my <a class="link" href="https://www.youtube.com/channel/UCpXUWQuAMS843WPMMiAAg8g?view_as=subscriber"><strong>Youtube channel</strong></a> to see my work.</p>
+      <p class="bio-1">
+        I am a creative person. I like clicking picture and making videos. I use Adobe Photoshop to edit photos and Adobe premiere pro to edit videos. Checkout my <a class="link"
+          href="https://www.youtube.com/channel/UCpXUWQuAMS843WPMMiAAg8g?view_as=subscriber"><strong>Youtube channel</strong></a> to see my work.</p>
     </div>
     <div class="skills">
       <img class="developer" alt="developer" src=images/publication.svg>
@@ -42,13 +54,54 @@
       <p class="bio-1">
       <table>
         <tr>
-        <td>. <a class="link" href="https://ieeexplore.ieee.org/document/8991341/authors">"Crowdfunding Fraud Prevention Using Blockchain” published in IEEE Xplore.</a></td>
+          <td>. <a class="link"  data-toggle="modal" data-target="#paper1">"Crowdfunding Fraud Prevention Using Blockchain” published in IEEE Xplore.</a>
+            <div class="modal fade" id="paper1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Publication</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <strong>Abstract:</strong>
+                    Online crowdfunding enables people to raise funds for their project. People who are interested in a project can donate by making an online transaction. The donated money goes to the project manager, which he uses to complete the
+                    project or to make a product. This existing method of online crowdfunding has a major drawback. It does not allow contributors to have control over the money they have contributed. Since in the existing method the project manager
+                    has all the control over the money contributed he can very easily perform malicious activities. Here we address this problem faced by the existing online crowdfunding platforms by using ethereum network and smart contract. The
+                    development of Blockchain technology has allowed businesses to build decentralized models. It has derived new methods to conduct transactions and make agreements. One of the technologies that propose an alternative to the
+                    traditional model is the smart contract. A smart contract is similar to a contract in the physical world, but it is digital and represented by a tiny computer program stored in a blockchain. These smart contracts can be used to
+                    implement logic. A method has been proposed here that uses smart contract to manage all the activities performed in a crowdfunding campaign. The proposed method has been implemented and its various features are tested by funding
+                    campaigns on rinkeby test network.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </td>
         </tr>
         <tr>
-        <td>. <a class="link" href="http://compmath-journal.org/dnload/Arvind-Kumar-Maurya-Avinash-Singh-Unnati-Dubey-Shivansh-Pandey-and-Upendra-Nath-Tripathi/CMJV10I01P0190.pdf">"Protection of Data Stored in Transparent Database System using Encryption” Journal of Computer and Mathematical Sciences.</a></td>
+          <td>. <a class="link" data-toggle="modal" data-target="#paper2" >"Protection of Data Stored in Transparent Database System using
+              Encryption” Journal of Computer and Mathematical Sciences.</a>
+              <div class="modal fade" id="paper2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLongTitle">Publication</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <strong>Abstract:</strong>
+                    In  transparent  database data  are  stored  at  different  severs  which  is  easily visible  and  accessible  to everyuser.  End  users  usually  access  information  through applications that intermediate between the user and the database. These applicationsprovide interface to access the database system i.e. transparent to end users. This is expected and even logical aspect of the nature of most database management systems (DBMS). There is always possibility of data loss and data theft by an unauthorized user.Now-a-days  research  on  Distributed  database management system (DDBMS) found to best match to handling the transparent type database storage and processing rules via communication links.In  this  paper,  we  have  introduced  a  method  of  encrypting  the  transparent database files and data. The prime purpose here is to prevent an unauthorized access to the data by restoring the files fromanother server. These physical files include the database file (.mdf), the transaction log file (.ldf) and the backup files (.bak).
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </td>
         </tr>
       </table>
-     </p>
+      </p>
     </div>
     <hr>
     <div class="contact">
@@ -57,11 +110,15 @@
       <p class="contact-text">If you like my work and would like me to build something for you then get in touch. </p>
     </div>
     <div class="social-handle">
-      <p class="social-links"><img class="social-images" src="images/linkedin.svg" alt="linkedin-image"><a class="social-ancor" href="https://www.linkedin.com/in/shivansh-pandey-456354137/">linkedin</a>  <img class="social-images" src="images/github.png" alt="git-image"> <a class="social-ancor" href="https://github.com/shivansh-gkp">Github</a> <img class="social-images" src="images/facebook.svg" alt="facebook-image"> <a class="social-ancor" href="https://www.facebook.com/shivansh.pandey.31">facebook</a> <img class="social-images" src="images/instagram.svg" alt="Instagram-image"><a class="social-ancor" href="https://www.instagram.com/shivansh_it/">Instagram</a></p>
+      <p class="social-links"><img class="social-images" src="images/linkedin.svg" alt="linkedin-image"><a class="social-ancor" href="https://www.linkedin.com/in/shivansh-pandey-456354137/">linkedin</a> <img class="social-images"
+          src="images/github.png" alt="git-image"> <a class="social-ancor" href="https://github.com/shivansh-gkp">Github</a> <img class="social-images" src="images/facebook.svg" alt="facebook-image"> <a class="social-ancor"
+          href="https://www.facebook.com/shivansh.pandey.31">facebook</a> <img class="social-images" src="images/instagram.svg" alt="Instagram-image"><a class="social-ancor" href="https://www.instagram.com/shivansh_it/">Instagram</a></p>
     </div>
     <script src="index.js"></script>
+
     <head>
-</head>
-</body>
+    </head>
   </body>
+  </body>
+
   </html>

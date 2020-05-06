@@ -15,6 +15,9 @@ hr{
   width: 4%;
   margin-top:5%;
 }
+.modal-title{
+  color: #77d8d8;
+}
 .intro-section{
   background-color: #b2ebf2;
   background-image: linear-gradient(#b2ebf2, white);

@@ -93,6 +93,7 @@ hr{
   color: black;
 }
 .link:hover{
+  text-decoration: none;
   color: #77d8d8;
 }
 .developer{
